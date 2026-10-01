@@ -19,7 +19,7 @@ public class B_while {
 
         Scanner sc = new Scanner(System.in);
 
-        while (true /*증감식*/) {
+        while (true /*조건식*/) {
 
             System.out.print("정수를 입력해 주세요 : ");
             int num = sc.nextInt();
