@@ -1,4 +1,4 @@
-package exercise.problem01;
+package exercise.sample.problem01;
 
 public class Answer {
 

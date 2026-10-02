@@ -1,4 +1,4 @@
-package exercise.problem03;
+package exercise.sample.problem03;
 import java.util.Scanner;
 
 public class Answer {
