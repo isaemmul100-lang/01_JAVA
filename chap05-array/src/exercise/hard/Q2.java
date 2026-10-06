@@ -23,10 +23,18 @@ public class Q2 {
         int[][] nums = new int[3][];
         int sum = 0;
 
-        System.out.println("배열 값을 입력하세요 : ");
+//        System.out.println("배열 값을 입력하세요 : ");
+//        for (int i = 0; i < nums.length; i++) {
+//            for (int j = 0; j < nums[i].length; j++) { // 문제점 주소를 관리하는 배열의 각 인덱스 마다 배열을 할당하지 않음 하지만 가변배열으로 사용자가 치는 만큼만 만들어함
+//                nums[i][j] = sc.nextInt();
+//            }
+//        }
+
         for (int i = 0; i < nums.length; i++) {
-            for (int j = 0; j < nums[i].length; j++) { // 문제점 주소를 관리하는 배열의 각 인덱스 마다 배열을 할당하지 않음 하지만 가변배열으로 사용자가 치는 만큼만 만들어함
-                nums[i][j] = sc.nextInt();
+            System.out.println("배열 값을 입력하세요 : ");
+            int num = sc.nextInt();
+            for (int j = 0; j < nums[i].length; j++) {
+                nums[i][j+1] = num;
             }
         }
 
@@ -37,6 +45,8 @@ public class Q2 {
             }
             System.out.println(sum);
         }
+
+
 
     }
 }

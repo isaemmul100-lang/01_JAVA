@@ -1,0 +1,26 @@
+package lecture.section02.abstractclass;
+
+public class Application {
+
+    /*
+    * 추상클래스
+    * - 추상메소드 0개 이상 포함하는 클래스
+    * - 추상클래스를 상속받은 클래스를 만들고, 추상메서드를 구현(완성)해야지만
+    *   사용이 가능핟.
+    *
+    * 추상메서드
+    * - 메소드의 선언부만 있고 구현부가 없는 메소드
+    * */
+
+    public static void main(String[] args) {
+
+        // 추상클래스 자체만으로는 인스턴스 생성이 불가
+//        Product product = new Product();
+
+        // 상속받은 클래스로 객체를 만들면
+        //
+        Product smartPhone = new SmartPhone();
+
+    }
+
+}
